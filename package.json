@@ -91,7 +91,7 @@
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
-     "postinstall" : "npm install && npm run prebuild && npm run build",
+     "postinstall" : "npm run prebuild && npm run build",
     "prebuild": "rimraf dist/ && rimraf build/ && mkdirp dist && mkdirp build",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && npm run build:create-reftest-list && npm run build:testrunner && npm run build:minify",
     "build:testrunner": "rollup -c tests/rollup.config.ts",
