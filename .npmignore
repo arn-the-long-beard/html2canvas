@@ -12,8 +12,4 @@ tmp/
 .eslintrc
 .travis.yml
 azure-pipelines.yml
-karma.js
-karma.conf.js
-rollup.config.js
-webpack.config.js
 .rpt2_cache
