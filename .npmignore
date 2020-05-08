@@ -6,7 +6,6 @@ www/
 .idea/
 .editorconfig
 .npmignore
-.eslintrc
 .travis.yml
 azure-pipelines.yml
 .rpt2_cache
