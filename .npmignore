@@ -1,11 +1,8 @@
-build/
 docs/
 examples/
 www/
-tmp/
 .github/
 *.iml
-.babelrc
 .idea/
 .editorconfig
 .npmignore
