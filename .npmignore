@@ -1,9 +1,6 @@
 build/
-docs/
-examples/
 scripts/
 tests/
-www/
 tmp/
 .github/
 *.iml
